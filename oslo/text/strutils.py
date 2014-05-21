@@ -22,9 +22,8 @@ import re
 import sys
 import unicodedata
 
+from oslo.i18n import _
 import six
-
-from openstack.common.gettextutils import _
 
 
 UNIT_PREFIX_EXPONENT = {
